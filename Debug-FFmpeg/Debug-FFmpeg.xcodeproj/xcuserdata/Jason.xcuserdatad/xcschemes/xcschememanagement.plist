@@ -4,20 +4,25 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Learn-FFmpeg.xcscheme</key>
+		<key>Debug-FFmpeg.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>1</integer>
+		</dict>
+		<key>ffmpeg_make.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>96F7955C1E6C25BA00BC08D6</key>
+		<key>96BBC5931E6C52AA009393B9</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>96F795751E6C25BB00BC08D6</key>
+		<key>96F7958D1E6C25D400BC08D6</key>
 		<dict>
 			<key>primary</key>
 			<true/>

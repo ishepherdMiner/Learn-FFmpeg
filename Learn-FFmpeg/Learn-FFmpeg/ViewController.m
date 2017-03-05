@@ -2,11 +2,12 @@
 //  ViewController.m
 //  Learn-FFmpeg
 //
-//  Created by Jason on 04/03/2017.
+//  Created by Jason on 05/03/2017.
 //  Copyright © 2017 Jason. All rights reserved.
 //
 
 #import "ViewController.h"
+#import "KxMovieViewController.h"
 
 @interface ViewController ()
 
@@ -16,7 +17,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    ViewController *vc;
+    NSString *path = @"http://192.168.5.101/~Jason/sample_iPod.m4v";
+    vc = [KxMovieViewController movieViewControllerWithContentPath:path parameters:nil];
+    [self presentViewController:vc animated:YES completion:nil];
 }
 
 

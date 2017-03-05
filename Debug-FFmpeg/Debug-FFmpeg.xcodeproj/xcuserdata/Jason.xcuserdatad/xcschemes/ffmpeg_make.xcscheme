@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "96F7955C1E6C25BA00BC08D6"
-               BuildableName = "Learn-FFmpeg.app"
-               BlueprintName = "Learn-FFmpeg"
-               ReferencedContainer = "container:Learn-FFmpeg.xcodeproj">
+               BlueprintIdentifier = "96BBC5931E6C52AA009393B9"
+               BuildableName = "ffmpeg_make"
+               BlueprintName = "ffmpeg_make"
+               ReferencedContainer = "container:Debug-FFmpeg.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -28,26 +28,7 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "96F795751E6C25BB00BC08D6"
-               BuildableName = "Learn-FFmpegTests.xctest"
-               BlueprintName = "Learn-FFmpegTests"
-               ReferencedContainer = "container:Learn-FFmpeg.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "96F7955C1E6C25BA00BC08D6"
-            BuildableName = "Learn-FFmpeg.app"
-            BlueprintName = "Learn-FFmpeg"
-            ReferencedContainer = "container:Learn-FFmpeg.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -61,16 +42,19 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <PathRunnable
+         runnableDebuggingMode = "0"
+         FilePath = "/Users/Jason/Developer/01-Engineer/Github/Me/Learn-FFmpeg/FFmpeg-iOS-build-script/ffmpeg-3.2/ffmpeg_g">
+      </PathRunnable>
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "96F7955C1E6C25BA00BC08D6"
-            BuildableName = "Learn-FFmpeg.app"
-            BlueprintName = "Learn-FFmpeg"
-            ReferencedContainer = "container:Learn-FFmpeg.xcodeproj">
+            BlueprintIdentifier = "96BBC5931E6C52AA009393B9"
+            BuildableName = "ffmpeg_make"
+            BlueprintName = "ffmpeg_make"
+            ReferencedContainer = "container:Debug-FFmpeg.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -80,16 +64,15 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "96F7955C1E6C25BA00BC08D6"
-            BuildableName = "Learn-FFmpeg.app"
-            BlueprintName = "Learn-FFmpeg"
-            ReferencedContainer = "container:Learn-FFmpeg.xcodeproj">
+            BlueprintIdentifier = "96BBC5931E6C52AA009393B9"
+            BuildableName = "ffmpeg_make"
+            BlueprintName = "ffmpeg_make"
+            ReferencedContainer = "container:Debug-FFmpeg.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
