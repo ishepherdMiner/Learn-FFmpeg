@@ -2,7 +2,11 @@
 
 自学*FFmpeg*
 
-# 目录
+# 安装
+
+> ./install.sh
+
+# 最终目录
 
 * Debug-FFmpeg 
 * FFmpeg-iOS-build-script
@@ -10,6 +14,7 @@
 * Learn-FFmpeg.xcworkspace
 * LISCENSE  
 * README.md
+* install.sh
 
 # 内容
 ## Debug-FFmpeg
