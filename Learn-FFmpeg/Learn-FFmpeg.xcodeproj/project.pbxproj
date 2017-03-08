@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		964DDE2C1E704CF30029FF1E /* build-ffmpeg-tvos.sh in Resources */ = {isa = PBXBuildFile; fileRef = 964DDE291E704CF30029FF1E /* build-ffmpeg-tvos.sh */; };
+		964DDE2D1E704CF30029FF1E /* build-ffmpeg.sh in Resources */ = {isa = PBXBuildFile; fileRef = 964DDE2A1E704CF30029FF1E /* build-ffmpeg.sh */; };
+		964DDE2E1E704CF30029FF1E /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 964DDE2B1E704CF30029FF1E /* README.md */; };
 		96BBA1BA1E6C4124009393B9 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 96BBA1B91E6C4124009393B9 /* libz.tbd */; };
 		96BBA1BC1E6C412E009393B9 /* libbz2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 96BBA1BB1E6C412E009393B9 /* libbz2.tbd */; };
 		96BBA1BE1E6C4138009393B9 /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 96BBA1BD1E6C4138009393B9 /* libiconv.tbd */; };
@@ -43,6 +46,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		964DDE291E704CF30029FF1E /* build-ffmpeg-tvos.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "build-ffmpeg-tvos.sh"; sourceTree = "<group>"; };
+		964DDE2A1E704CF30029FF1E /* build-ffmpeg.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "build-ffmpeg.sh"; sourceTree = "<group>"; };
+		964DDE2B1E704CF30029FF1E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		96BBA1B91E6C4124009393B9 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		96BBA1BB1E6C412E009393B9 /* libbz2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.tbd; path = usr/lib/libbz2.tbd; sourceTree = SDKROOT; };
 		96BBA1BD1E6C4138009393B9 /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
@@ -214,6 +220,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		964DDE281E704CF30029FF1E /* FFmpeg-iOS-build-script */ = {
+			isa = PBXGroup;
+			children = (
+				964DDE291E704CF30029FF1E /* build-ffmpeg-tvos.sh */,
+				964DDE2A1E704CF30029FF1E /* build-ffmpeg.sh */,
+				964DDE2B1E704CF30029FF1E /* README.md */,
+			);
+			name = "FFmpeg-iOS-build-script";
+			path = "../../FFmpeg-iOS-build-script";
+			sourceTree = "<group>";
+		};
 		96BBA1B81E6C4124009393B9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -457,6 +474,7 @@
 		96F7955F1E6C25BA00BC08D6 /* Learn-FFmpeg */ = {
 			isa = PBXGroup;
 			children = (
+				964DDE281E704CF30029FF1E /* FFmpeg-iOS-build-script */,
 				96BBA2C11E6C45BC009393B9 /* kxmovie */,
 				96BBA2401E6C4319009393B9 /* FFmpeg-iOS */,
 				96F795631E6C25BA00BC08D6 /* AppDelegate.h */,
@@ -575,6 +593,8 @@
 			files = (
 				96F795701E6C25BB00BC08D6 /* LaunchScreen.storyboard in Resources */,
 				96BBA2CE1E6C45BC009393B9 /* kxmovie.bundle in Resources */,
+				964DDE2D1E704CF30029FF1E /* build-ffmpeg.sh in Resources */,
+				964DDE2C1E704CF30029FF1E /* build-ffmpeg-tvos.sh in Resources */,
 				96F7956D1E6C25BB00BC08D6 /* Assets.xcassets in Resources */,
 				96F7956B1E6C25BB00BC08D6 /* Main.storyboard in Resources */,
 			);
@@ -600,6 +620,7 @@
 				96BBA2D11E6C45BC009393B9 /* KxMovieViewController.m in Sources */,
 				96F795621E6C25BA00BC08D6 /* main.m in Sources */,
 				96BBA2CD1E6C45BC009393B9 /* KxAudioManager.m in Sources */,
+				964DDE2E1E704CF30029FF1E /* README.md in Sources */,
 				96BBA2D01E6C45BC009393B9 /* KxMovieGLView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
