@@ -6,11 +6,11 @@
 
 # Precompiled Headers
 *.gch
-*.pch
+# *.pch
 
 # Libraries
 *.lib
-*.a
+# *.a
 *.la
 *.lo
 
